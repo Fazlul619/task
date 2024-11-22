@@ -39,7 +39,7 @@ const Banner = () => {
       </div>
 
       
-        <div className="space-y-3 md:flex md:gap-20 px-4 bg-[#6441C2F2] ">
+        <div className="flex flex-col gap-3  md:flex-row md:gap-20 px-4 bg-[#6441C2F2]">
           <div className="flex gap-2">
             <div>
               <Image
