@@ -8,7 +8,7 @@ const Banner = () => {
           backgroundImage: "url('/hero.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "500px", // Adjust as needed
+          height: "500px",
         }}
       >
         <div className="flex justify-center items-center h-full">
@@ -39,7 +39,7 @@ const Banner = () => {
       </div>
 
       
-        <div className="md:flex gap-20 px-4 bg-[#6441C2F2] ">
+        <div className="space-y-3 md:flex md:gap-20 px-4 bg-[#6441C2F2] ">
           <div className="flex gap-2">
             <div>
               <Image
