@@ -32,7 +32,7 @@ const ManCollectionSection = () => {
         </div>
       </div>
     </div>
-        <div className="hidden md:flex justify-center gap-3 mb-10">
+        <div className="hidden md:flex justify-center gap-3">
         <p className="w-8 h-2 rounded-lg bg-[#7E53D4]"></p>
         <p className="w-4 h-2 rounded-lg bg-[#E0DCF8]"></p>
         <p className="w-4 h-2 rounded-lg bg-[#E0DCF8]"></p>

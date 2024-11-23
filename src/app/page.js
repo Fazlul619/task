@@ -7,15 +7,13 @@ import Footer from "./components/Footer";
 
 const page = () => {
   return (
-    <div className="max-w-7xl mx-auto bg-[#F4F8FF]">
+   
       <div>
-        <Header></Header>
         <Banner></Banner>
         <BigDealSection></BigDealSection>
         <ManCollectionSection></ManCollectionSection>
-        <Footer></Footer>
       </div>
-    </div>
+   
   );
 };
 
