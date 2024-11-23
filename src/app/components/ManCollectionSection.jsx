@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 const ManCollectionSection = () => {
   return (
-    <div className="flex flex-col my-10  md:flex-row md:items-center gap-10 md:w-11/12 mx-auto ">
+    <div>
+         <div className="flex flex-col my-10  md:flex-row md:items-center gap-10 md:w-11/12 mx-auto ">
       <div className="bg-[#EEECFB]" >
         <div>
         <Image
@@ -31,6 +32,14 @@ const ManCollectionSection = () => {
         </div>
       </div>
     </div>
+        <div className="hidden md:flex justify-center gap-3 mb-10">
+        <p className="w-8 h-2 rounded-lg bg-[#7E53D4]"></p>
+        <p className="w-4 h-2 rounded-lg bg-[#E0DCF8]"></p>
+        <p className="w-4 h-2 rounded-lg bg-[#E0DCF8]"></p>
+      </div>
+    </div>
+   
+    
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const BigDealSection = () => {
   return (
-    <div className="flex flex-col bg-[#EEECFB] my-10 lg:flex-row items-center justify-center md:w-11/12 mx-auto">
+    <div className="flex flex-col bg-[#EEECFB] my-10 pt-4 lg:flex-row items-center justify-center md:w-11/12 mx-auto">
       <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
         <div>
           <p className="text-[#6F42C1] italic font-mono">Big Deal</p>
