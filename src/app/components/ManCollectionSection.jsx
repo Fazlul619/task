@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const ManCollectionSection = () => {
   return (
-    <div className="flex flex-col  md:flex-row md:items-center gap-10">
+    <div className="flex flex-col my-10  md:flex-row md:items-center gap-10 md:w-11/12 mx-auto ">
       <div className="bg-[#EEECFB]" >
         <div>
         <Image
@@ -14,7 +14,7 @@ const ManCollectionSection = () => {
         />
         </div>
       </div>
-      <div>
+      <div className="ml-4 md:ml-0">
         <h1 className="text-[#1D1D1D] mb-2 md:text-5xl md:mb-6">MEN COLLECTION</h1>
         <div className="flex">
           <button className="bg-[#8F71E1] text-white rounded-2xl px-3 py-1">

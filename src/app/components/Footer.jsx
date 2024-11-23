@@ -63,8 +63,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      
     </footer>
     <div className="bg-[#7E53D4] py-4 text-center text-sm">
         &copy; 2024 | We5ive

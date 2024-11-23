@@ -13,7 +13,6 @@ const Banner = () => {
       >
         <div className="flex justify-center items-center h-full">
           <div>
-            {" "}
             <h1 className="text-2xl lg:text-5xl font-bold text-center">
               Elevate Your Everyday Style
             </h1>
@@ -39,7 +38,7 @@ const Banner = () => {
       </div>
 
       
-        <div className="flex flex-col gap-3  md:flex-row md:gap-20 px-4 bg-[#6441C2F2]">
+        <div className="flex flex-col gap-3 py-3 md:flex-row md:gap-20 px-4 bg-[#6441C2F2] ">
           <div className="flex gap-2">
             <div>
               <Image
