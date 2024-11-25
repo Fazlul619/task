@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Indian Sharee",
-    "image": "https://i.ibb.co.com/BKZ5HRV/image-3.png",
+    "image": "https://i.ibb.co/BKZ5HRV/image-3.png",
     "price": 2300,
     "discount": 40,
     "rating": 4,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Half Sleeve Shirt",
-    "image": "https://i.ibb.co.com/wRnJXz6/image-4.png",
+    "image": "https://i.ibb.co/wRnJXz6/image-4.png",
     "price": 1800,
     "discount": 20,
     "rating": 3,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Woman sari",
-    "image": "https://i.ibb.co.com/QJckDZ6/image-5.png",
+    "image": "https://i.ibb.co/QJckDZ6/image-5.png",
     "price": 1500,
     "discount": 10,
     "rating": 5,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Checkered shirt",
-    "image": "https://i.ibb.co.com/QJtwBdX/image-6.png",
+    "image": "https://i.ibb.co/QJtwBdX/image-6.png",
     "price": 900,
     "discount": 15,
     "rating": 4,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Indian Sharee",
-    "image": "https://i.ibb.co.com/BKZ5HRV/image-3.png",
+    "image": "https://i.ibb.co/BKZ5HRV/image-3.png",
     "price": 1200,
     "discount": 25,
     "rating": 4,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Half Sleeve Shirt",
-    "image": "https://i.ibb.co.com/wRnJXz6/image-4.png",
+    "image": "https://i.ibb.co/wRnJXz6/image-4.png",
     "price": 3000,
     "discount": 30,
     "rating": 5,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Woman  sari",
-    "image": "https://i.ibb.co.com/QJckDZ6/image-5.png",
+    "image": "https://i.ibb.co/QJckDZ6/image-5.png",
     "price": 2500,
     "discount": 35,
     "rating": 4,
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Checkered shirt",
-    "image": "https://i.ibb.co.com/QJtwBdX/image-6.png",
+    "image": "https://i.ibb.co/QJtwBdX/image-6.png",
     "price": 3500,
     "discount": 50,
     "rating": 5,

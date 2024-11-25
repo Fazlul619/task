@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['i.ibb.co.com'], // Add the hostname here
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        pathname: '/**',
+      },
+    ],
+    // Increase the timeout to 30 seconds
+    minimumCacheTTL: 600,
   },
 };
 

@@ -32,7 +32,10 @@ const SummerDealSection = () => {
       <div className="container mx-auto ">
     
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          
           {products.map((product) => (
+            
+
             <SummerProductCard
               key={product.id}
               image={product.image}
@@ -44,6 +47,9 @@ const SummerDealSection = () => {
             />
           ))}
         </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <button className="bg-[#7E53D4] text-white px-3 py-2 rounded-lg mt-5">See more</button>
       </div>
     </div>
     </div>

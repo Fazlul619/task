@@ -124,25 +124,25 @@ const FeatureProductSection = () => {
        
       </div>
       <div className="hidden md:block absolute right-0 top-1/4">
-          <div class="w-28 h-28 bg-[#581FC1] rounded-tl-2xl rounded-bl-2xl flex flex-col items-center justify-center text-white">
+          <div className="w-28 h-28 bg-[#581FC1] rounded-tl-2xl rounded-bl-2xl flex flex-col items-center justify-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-8 w-8 mb-2"
+              className="h-8 w-8 mb-2"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M16 11V7a4 4 0 00-8 0v4M5 11h14l1 10H4l1-10z"
               />
             </svg>
 
-            <p class="text-sm font-semibold">Your bag</p>
+            <p className="text-sm font-semibold">Your bag</p>
 
-            <p class="text-sm font-bold mt-1">0</p>
+            <p className="text-sm font-bold mt-1">0</p>
           </div>
         </div>
     </div>
