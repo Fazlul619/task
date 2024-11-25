@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 const SummerProductCard = ({
   image,
- name,
+  name,
   price,
   discount,
   rating,
   reviews,
-  img
+  img,
 }) => {
   const discountedPrice = (price - (price * discount) / 100).toFixed(2);
 
@@ -16,17 +16,16 @@ const SummerProductCard = ({
     <div>
       <div className="max-w-xs rounded-lg shadow-lg border border-gray-200 p-4 bg-white">
         <div className="relative">
-            <div className="bg-[#F6F5FD] w-full rounded-lg flex justify-center items-center p-5">
+          <div className="bg-[#F6F5FD] w-full h-[250px] rounded-lg flex justify-center items-center p-5">
             <Image
-             src={image}
-             alt={img}
-            width={166}
-            height={250}
-            
-          />
-            </div>
-            
-          
+              src={image}
+              alt={img}
+              width={166}
+              height={250}
+              className="object-contain h-full"
+            />
+          </div>
+
           {discount > 0 && (
             <div className="absolute top-0 right-3 bg-[#7E53D4] text-white text-sm font-bold px-3 py-3 w-11 rounded-b-full text-center">
               Up to {discount}%
