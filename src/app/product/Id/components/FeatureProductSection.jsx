@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 const FeatureProductSection = () => {
   const [selectedSize, setSelectedSize] = useState(null);
   const [selectedColor, setSelectedColor] = useState("Off White");
@@ -22,7 +23,88 @@ const FeatureProductSection = () => {
   };
   return (
     <div className="relative">
-      <div className="bg-[#F4F8FF] p-6 max-w-xl mx-auto rounded-lg shadow-md">
+      <div>
+        <p className="text-[#1D1D1D] px-6">Feature Product /<span className="text-[#7E53D4]">New Arrival</span></p>
+      </div>
+      <div className="flex flex-col  md:flex-row gap-20">
+        <div className=" bg-[#F4F8FF] w-1/2">
+          <div className="">
+            <div className="relative">
+              <Image
+                id="mainProductImage"
+                src="/man.png"
+                width={580}
+                height={507}
+                alt="Main Product Image"
+              />
+            </div>
+            <div className="flex items-center relative">
+              <div className="absolute -top-[100px] left-[7px] md:-top-[290px] md:left-[40px] transform -translate-y-1/2 cursor-pointer">
+                <Image
+                  id="left-arrow"
+                  width={24}
+                  height={24}
+                  src="/left.svg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute -top-[100px] right-[4px] md:-top-[290px] md:right-[40px] transform -translate-y-1/2 cursor-pointer">
+                <Image
+                  id="right-arrow"
+                  width={24}
+                  height={24}
+                  src="/right.svg"
+                  alt=""
+                  className="rotate-180"
+                />
+              </div>
+              </div>
+              <div className="hidden md:block">
+              <div
+                id="thumbnailContainer"
+                className=" mt-3 flex justify-center gap-4 items-center  overflow-hidden w-full"
+              >
+                <Image
+                  src="/1st.png"
+                  alt="Thumbnail 1"
+                  className="bg-[#EBE9FE] w-[100px] h-[100px] object-cover cursor-pointer p-2 rounded-lg"
+                  width={144}
+                  height={142}
+                  onclick="changeMainImage('image/1st.png')"
+                />
+
+                <Image
+                  src="/2nd.png"
+                  alt="Thumbnail 2"
+                  width={144}
+                  height={142}
+                  className="bg-[#EBE9FE] w-[100px] h-[100px] object-cover cursor-pointer p-2 rounded-lg"
+                  onclick="changeMainImage('image/2nd.png')"
+                />
+
+                <Image
+                  src="/3rd.png"
+                  alt="Thumbnail 3"
+                  width={144}
+                  height={142}
+                  className="bg-[#EBE9FE] w-[100px] h-[100px] object-cover cursor-pointer p-2 rounded-lg"
+                  onclick="changeMainImage('image/3rd.png')"
+                />
+
+                <Image
+                  src="/4.png"
+                  alt="Thumbnail 4"
+                  width={144}
+                  height={142}
+                  className="bg-[#EBE9FE] w-[100px] h-[100px] object-cover cursor-pointer p-2 rounded-lg"
+                  onclick="changeMainImage('image/thumb4.png')"
+                />
+              </div>
+              </div>
+          </div>
+        </div>
+         {/* Right side */}
+      <div className="bg-[#F4F8FF] p-6 max-w-xl space-y-4">
         <div className="bg-[#2F1C59] text-white text-xs px-4 py-2 inline-block rounded-lg mb-4">
           New Arrival
         </div>
@@ -121,30 +203,32 @@ const FeatureProductSection = () => {
             Add to Cart
           </button>
         </div>
-       
       </div>
+      </div>
+
+     
       <div className="hidden md:block absolute right-0 top-1/4">
-          <div className="w-28 h-28 bg-[#581FC1] rounded-tl-2xl rounded-bl-2xl flex flex-col items-center justify-center text-white">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 mb-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M16 11V7a4 4 0 00-8 0v4M5 11h14l1 10H4l1-10z"
-              />
-            </svg>
+        <div className="w-28 h-28 bg-[#581FC1] rounded-tl-2xl rounded-bl-2xl flex flex-col items-center justify-center text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8 mb-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M16 11V7a4 4 0 00-8 0v4M5 11h14l1 10H4l1-10z"
+            />
+          </svg>
 
-            <p className="text-sm font-semibold">Your bag</p>
+          <p className="text-sm font-semibold">Your bag</p>
 
-            <p className="text-sm font-bold mt-1">0</p>
-          </div>
+          <p className="text-sm font-bold mt-1">0</p>
         </div>
+      </div>
     </div>
   );
 };
